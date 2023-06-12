@@ -19,17 +19,17 @@ const About = () => {
       <div
         className="
         relative flex flex-row items-end gap-12
-        before:absolute before:-top-9 before:left-12 before:h-2 before:w-2 before:bg-primary-100 after:absolute after:-top-9 after:left-0 after:h-2 after:w-2 after:bg-primary-100
+        before:absolute before:-top-9 before:left-12 before:h-2 before:w-2 before:bg-primary-100 
+        after:absolute after:-top-9 after:left-0 after:h-2 after:w-2 after:bg-primary-100
       "
       >
         {showImage && (
           <Image
+            src={Me}
             width={200}
             height={200}
-            alt="Eu"
-            src={Me}
-            aria-hidden
             className="mt-20"
+            alt="Picture of me"
           />
         )}
         <div>

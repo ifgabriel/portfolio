@@ -1,5 +1,5 @@
 'use client'
-import { About, Contact, Experiences, Skills } from '@/components'
+import { About, Contact, Experiences, Projects, Skills } from '@/components'
 import useWindowSize from '@/utils/useWindowSize'
 
 const Page = () => {
@@ -10,6 +10,7 @@ const Page = () => {
       <About />
       <Experiences />
       {windowSize > 1000 && <Skills />}
+      <Projects />
       <Contact />
     </>
   )

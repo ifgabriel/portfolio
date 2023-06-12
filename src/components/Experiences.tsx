@@ -32,7 +32,7 @@ const experiences: ExperienceType[] = [
 ]
 
 const Experience = ({ title, company, description }: ExperienceType) => (
-  <li className="flex flex-col gap-4 rounded-lg">
+  <li className="flex flex-col gap-4">
     <h3 className="text-2xl font-semibold">
       {title}{' '}
       <span className="text-2xl font-semibold text-primary-100">
