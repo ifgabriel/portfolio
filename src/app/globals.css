@@ -6,3 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+.text-stroke {
+  -webkit-text-stroke-color: #1c1917;
+  -webkit-text-stroke-width: 1px;
+}
