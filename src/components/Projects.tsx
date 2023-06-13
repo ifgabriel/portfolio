@@ -49,10 +49,10 @@ const Project = ({ title, image, description }: ProjectType) => (
 )
 
 const Projects = () => (
-  <section className="relative flex flex-col py-14">
+  <section className="container relative mx-auto flex flex-col py-14 lg:px-52">
     <div className="absolute -right-1/2 left-1/2 top-96 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-100 opacity-40 blur-full" />
     <span
-      className="text-stroke text-tertiary-50 absolute -right-96 -top-24 -z-10 font-background text-[32rem] leading-[0.93] text-primary-50"
+      className="text-stroke text-tertiary-50 absolute -top-24 left-[72rem] -z-10 font-background text-[32rem] leading-[0.93] text-primary-50"
       aria-hidden
     >
       WEB

@@ -9,6 +9,7 @@ body {
 }
 
 .text-stroke {
-  -webkit-text-stroke-color: #1c1917;
+  -webkit-text-stroke-color: #FFF;
   -webkit-text-stroke-width: 1px;
+  opacity: 0.019;
 }

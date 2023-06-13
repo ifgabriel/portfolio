@@ -48,7 +48,7 @@ const Experience = ({ title, company, description }: ExperienceType) => (
 )
 
 const Experiences = () => (
-  <section className="relative flex flex-col py-14">
+  <section className="container relative mx-auto flex  flex-col py-14 lg:px-52">
     <span
       className="text-stroke text-tertiary-50 absolute -top-24 left-[32rem] -z-10 font-background text-[32rem] leading-[0.93] text-primary-50"
       aria-hidden

@@ -8,7 +8,7 @@ const About = () => {
   const showImage = windowSize > 770
 
   return (
-    <section className="relative flex flex-col gap-24 py-14">
+    <section className="container relative mx-auto flex flex-col gap-24 py-14 lg:px-52">
       <span
         className="text-stroke text-tertiary-50 absolute -top-24 left-[32rem] -z-10 font-background text-[32rem] leading-[0.93] text-primary-50"
         aria-hidden

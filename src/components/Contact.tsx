@@ -1,5 +1,5 @@
 const Contact = () => (
-  <section className="relative flex flex-col py-14">
+  <section className="container relative mx-auto flex  flex-col py-14 lg:px-52">
     <div className="mb-4 h-1 w-32 bg-primary-100" />
     <h2 className="text-5xl font-semibold">Contact</h2>
     <p className="text-l mt-24 max-w-3xl">

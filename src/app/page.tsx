@@ -9,7 +9,7 @@ const Page = () => {
     <>
       <About />
       <Experiences />
-      {windowSize > 1000 && <Skills />}
+      {windowSize > 0 && <Skills />}
       <Projects />
       <Contact />
     </>
